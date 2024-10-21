@@ -1,0 +1,41 @@
+body {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: orange;
+}
+
+.element {
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(230, 157, 21);
+    box-sizing: border-box;
+}
+
+.element p {
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    font-family: monospace;
+}
+
+.element:-ms-fullscreen p {
+    visibility: visible;
+}
+
+.element:fullscreen {
+    background-color: #1d28c0;
+    width: 100vw;
+    height: 100vh;
+}
+
+button {
+    font-family: monospace;
+    float: right;
+    padding: 5px;
+    cursor: pointer;
+}
+
